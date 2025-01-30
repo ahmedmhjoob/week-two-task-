@@ -1,0 +1,189 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-header li{
+    list-style: none;
+    display: inline;
+    margin-right: 2px;
+    font-size: small;
+        font-weight:400;
+    }
+
+.navbar li{
+    list-style: none;
+    display: inline;
+    margin-right: 25px;
+}
+
+
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 12px; 
+}
+
+.navbar {
+    background-color: white;
+    padding: 10px 20px;
+    height: 45px;
+}
+
+.search-container {
+    position: relative;
+    width: 200px; 
+  }
+  
+  .search-input {
+    width: 118px;
+    padding: 8px 1px 8px 30px; 
+    border: 1px solid #f0f2f4;
+    border-radius: 20px; 
+    font-size: 17px;
+    outline: none;
+    background-color:#f0f2f4;
+    height: 20px;
+    
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 9px; 
+    top: 50%;
+    transform: translateY(-50%); 
+    color: #888;
+    pointer-events: none;
+  }
+
+.container-1{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    
+}
+
+
+.box-1 {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box-2 {
+    flex: 2; 
+    display: flex;
+    justify-content: center; 
+}
+
+.box-3 {
+    flex: 1; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.photos{
+    display: flex;
+   
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.menu-column {
+    flex: 1;
+    margin: 0 15px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 8px;
+    transition: color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+li:hover {
+    color: rgb(119, 119, 119);
+     
+}
+
+.footer {
+    background-color: black;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 20px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 8px;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+/* Hover effect */
+li:hover {
+    coloy: white;
+    font-weight: bold;
+}
+
+img {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.01);
+    opacity: 0.8; 
+}
